@@ -1,0 +1,13 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: redis-simple
+  # redis配置
+  redis:
+    host: 192.168.10.150
+    port: 6379
+
+logging:
+  level:
+    com.msb.util.HttpUtil: DEBUG
